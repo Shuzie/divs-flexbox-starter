@@ -13,7 +13,7 @@
 html {
   color: #222;
   font-size: 1em;
-  line-height: 1.4;
+  line-height: 1em;
 }
 
 /*
@@ -96,22 +96,22 @@ textarea {
    ========================================================================== */
 
 html {
-  background-color: #fff;
+  background-color: #0c0c0c;
   height: 100%;
 }
 
 body {
   font-family: "Source Sans Pro", sans-serif;
   padding: 2em;
-  font-size: 1.25em;
+  font-size: 1em;
   height: 100%;
 }
 
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
-  font-weight: 700;
+  font-weight: 50;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 
 .div-1,
@@ -120,15 +120,32 @@ body {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
   color: #fff;
   line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
-  height: 300px;
+  font-size: 1em;
+  background-color: #0c0c0c;
+  height: 200px;
   display: flex;
   width: 30%;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 20px;
+}
+.div-1,
+.div-3 {
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-bottom: none;
+  margin-bottom: 0;
 }
 
+.div-2 {
+  border-color: #b3d4fc39;
+  border-style: solid;
+  border-top: none;
+  border-bottom: none;
+  border-width: 1px;
+  margin-bottom: 0;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
